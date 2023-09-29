@@ -1,12 +1,45 @@
-body {
+*:not(dialog) {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   border-bottom: 1px solid black;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
 }
 
+.scoreboard {
+  text-align: end;
+}
 
+main {
+  padding: 2rem;
+}
+
+main p:not(button p){
+  margin-bottom: 1rem;
+}
+
+button {
+  aspect-ratio: 1;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button p {
+  font-size: 1.25rem;
+}
+
+img {
+  width: 14rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+}
