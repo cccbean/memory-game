@@ -1,4 +1,4 @@
-# Odoin Project: Memory Game
+# Odin Project: Memory Game
 - Got a working memory game using React based closely on the example they provided.
 - Application only has basic styling for now since I didn't feel like making design decisions
 
