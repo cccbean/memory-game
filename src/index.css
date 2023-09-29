@@ -23,7 +23,7 @@ main p:not(button p){
   margin-bottom: 1rem;
 }
 
-button {
+.card-container button {
   aspect-ratio: 1;
   border-radius: 1rem;
   border: none;
